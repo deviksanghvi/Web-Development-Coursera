@@ -1,0 +1,57 @@
+.navbar:before{
+  content: "";
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  opacity: .3;
+  z-index: -1;
+  background: grey;
+}
+
+.nav-item a{
+  font-weight: bold;
+  color: #fff!important;
+}
+
+* {
+  box-sizing: border-box; 
+}
+
+h1{
+  margin-bottom: 50px;
+  text-align: center;
+  color: green;
+  margin-top: 70px;
+}
+
+.navbar-toggler-icon{
+  background-color: ;
+}
+
+section{
+  border: 5px solid ;
+  background-color: grey;
+  width: 90%;
+    margin: 0px;
+    font-family: Helvetica;
+    color: white;
+    float: left;
+    padding: 10px 10px 10px 10px; 
+    position: relative;
+}
+ h2{
+  text-align: center;
+ }
+
+ @media (min-width: 768px) {
+        .fun{
+          display: none;
+        }
+ }
+
+ .row{
+  margin-left: 20px;
+  margin-right: 20px;
+ }
